@@ -1,0 +1,16 @@
+High Performnance Queuing Systems
+
+Abstract
+
+Queuing systems provide three main benefits to the developer.
+
+Guaranteed delivery
+First In First Out order
+Transacted re-queue in the event of some failure
+
+When dealing with high-performance systems, when queued messages are both arriving at speed and are varied, only one of these is available: guaranteed delivery.
+
+Messages arive too rapidly to hold them in the queue until failure is no longer an option. Multiple systems de-queuing the messages open the possibility of messages getting out of order.
+
+This whitepaper explores the options available to developer to ensure what messages must be delivered are delivered, and it's possible to determine exactly what happened.
+
